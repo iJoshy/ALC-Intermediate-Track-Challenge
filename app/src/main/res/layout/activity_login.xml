@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    tools:context=".LoginActivity" >
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="5" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/usernameTxt"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:hint="Username"
+                android:drawableLeft="@drawable/username"
+                android:padding="15dp"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/text"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/passwordTxt"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:drawableLeft="@drawable/password"
+                android:padding="15dp"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/text"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/signinBtn"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/mybutton"
+                android:textColor="@color/colorWhite"
+                android:text="SIGN IN"
+                android:onClick="signin" />
+
+            <TextView
+                android:textSize="13dip"
+                android:textStyle="normal"
+                android:text="Forgot password?"
+                android:textColor="@color/colorGray"
+                android:id="@+id/forgotText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="forgot"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:textSize="13dip"
+                android:textStyle="normal"
+                android:text="Don't have an account?"
+                android:textColor="@color/colorGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <TextView
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:text="Create one"
+                android:textColor="@color/colorGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:onClick="signup"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

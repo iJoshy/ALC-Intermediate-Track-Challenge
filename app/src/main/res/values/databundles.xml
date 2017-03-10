@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bundles" >
+        <item>EasyBlaze 10MB</item>
+        <item>EasyBlaze 50MB</item>
+        <item>EasyBlaze Night/Weekend</item>
+        <item>EasyBlaze 200MB</item>
+        <item>EasyBlaze 2GB</item>
+        <item>EasyBlaze 3GB</item>
+        <item>EasyBlaze 5GB</item>
+        <item>EasyBlaze 8GB</item>
+        <item>EasyBlaze 10GB</item>
+        <item>EasyBlaze 15GB</item>
+        <item>EasyBlaze 20GB</item>
+        <item>Smartphone 200MB</item>
+        <item>Smartphone 2GB</item>
+        <item>Smartphone 3GB</item>
+        <item>Smartphone 5GB</item>
+        <item>Smartphone 8GB</item>
+    </string-array>
+</resources>

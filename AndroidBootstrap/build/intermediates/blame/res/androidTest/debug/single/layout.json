@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/res/merged/androidTest/debug/layout/bootstrap_thumbnail_circle.xml",
+        "source": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/bundles/debug/res/layout/bootstrap_thumbnail_circle.xml"
+    },
+    {
+        "merged": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/res/merged/androidTest/debug/layout/bootstrap_button.xml",
+        "source": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/bundles/debug/res/layout/bootstrap_button.xml"
+    },
+    {
+        "merged": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/res/merged/androidTest/debug/layout/placeholder.xml",
+        "source": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/bundles/debug/res/layout/placeholder.xml"
+    },
+    {
+        "merged": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/res/merged/androidTest/debug/layout/bootstrap_thumbnail.xml",
+        "source": "/Users/portalservices/Dropbox/Android/TheLearnedFriends/AndroidBootstrap/build/intermediates/bundles/debug/res/layout/bootstrap_thumbnail.xml"
+    }
+]

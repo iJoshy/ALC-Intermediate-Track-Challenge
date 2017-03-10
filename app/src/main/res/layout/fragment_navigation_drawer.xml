@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bootstrap="http://schemas.android.com/tools"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <com.thelearnedfriends.thirdparty.RoundedImageView
+            android:id="@+id/profileImgNav"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_profile"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:onClick="profileImg"/>
+
+        <!--com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+            android:id="@+id/profileImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            bootstrap:bct_image="@drawable/headshot"
+            bootstrap:bct_size="large"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            bootstrap:bct_minimal="true"
+            android:onClick="profileImg"/-->
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="25dp" />
+
+    <RelativeLayout
+        android:id="@+id/settingsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_share"
+            android:scaleType="fitCenter"
+            android:id="@+id/shareImg"
+            android:tint="@color/colorGray"
+            android:layout_alignParentBottom="true"
+            android:onClick="Logout"/>
+
+        <TextView
+            android:id="@+id/shareText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:text="Logout"
+            android:layout_toRightOf="@id/shareImg"
+            android:layout_alignParentBottom="true"
+            android:onClick="Logout"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
